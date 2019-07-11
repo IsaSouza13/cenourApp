@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" 
+id="isamarabarross.cenourapp" version="1.0.0">
+
+	<name>Só de Cenoura</name>
+
+	<description>
+		Menu do restaurante SÓ DE CENOURA.
+	</description>
+
+	<author 
+	email="isamara.barros@gmail.com">
+		Isamara Barros
+	</author>
+
+    <!--Orientação da tela, manter fixo o modo retrato-->
+	<preference name="orientation" value="portrait"/>
+	
+	<!--Preencher a tela inteira-->
+	<preference name="fullscreen" value="true"/>
+	
+	<!--Não pedir permissões-->
+	<preference name="permissions" value="none"/>
+
+	<!--Define a versão mínima do android-->
+	<preference name="android-minSdkVersion" value="16"/>
+	<gap:platform name="android"/>
+
+	<!--Definir versão do phonegap, pois não estava funcionando o splash-->
+	<preference name='phonegap-version' value='cli-6.5.0' />
+  	<preference name='pgb-builder-version' value='2' />
+
+    <icon src="imagens/icon.png" />
+    <plugin name="cordova-plugin-splashscreen" />
+    <splash src="imagens/splash.png" />	
+    
+</widget>
